@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Me</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+		.contactBox {
+			margin: 50px auto;
+			padding: 20px;
+			width: 50%;
+			background-color: #fff;
+			border-radius: 5px;
+			box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+		}
+
+		input[type=text], select, textarea {
+			width: 100%;
+			padding: 12px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+			margin-top: 6px;
+			margin-bottom: 16px;
+			resize: vertical;
+		}
+		input[type=submit] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		input[type=submit]:hover {
+			background-color: #45a049;
+		}
+		textarea {
+			height: 150px;
+		}
+		nav {
+			background-color: #333;
+			overflow: hidden;
+		}
+		nav ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		nav li {
+			float: left;
+		}
+	</style>
+</head>
+<head>
+	<title>My Personal Website - Contact</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		nav li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1>Contact</h1>
+		</div>
+	</header>
+	<nav>
+		<div class="container">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="cv.html">CV</a></li>
+				<li><a href="publications.html">Publications</a></li>
+				<li><a href="education.html">Education and Work Experience</a></li>
+				<li><a href="awards.html">Awards</a></li>
+				<li><a href="contact.html"class="current">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	<main>
+		<div class="contactBox">
+			<h1>Contact Me</h1>
+			<form action="mailto:tanvir.ahamed@hotmail.com" method="post" enctype="text/plain">
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name" placeholder="Your name...">
+				
+				<label for="email">Email</label>
+				<input type="text" id="email" name="email" placeholder="Your email address...">
+				
+				<label for="subject">Subject</label>
+				<input type="text" id="subject" name="subject" placeholder="Subject...">
+				
+				<label for="message">Message</label>
+				<textarea id="message" name="message" placeholder="Your message..."></textarea>
+				
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</main>
+	<footer>
+		<div class="container">
+			<p>&copy; 2023 Tanvir Ahamed | <a href="https://scholar.google.com/citations?user=ELQ2fEcAAAAJ&hl=en" target="_blank"><img src="img/googleScholar.jpg" alt="Instagram" width="20" height="20"></a>
+				<a href="https://www.linkedin.com/" target="_blank"><img src="img/linkedIn.jpg" alt="LinkedIn" width="20" height="20"></a></p>
+		</div>
+	</footer>
+</body>
+</html>

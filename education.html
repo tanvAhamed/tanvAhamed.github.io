@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Personal Website - Education and Work Experience</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		nav li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+      .degree {
+        margin-bottom: 20px;
+      }
+
+      .school {
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 5px;
+        color:#3366cc;
+      }
+
+      .program {
+        font-style: italic;
+        margin-bottom: 5px;
+      }
+
+      .location {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      .date {
+        margin-bottom: 20px;
+      }
+      h1, h2 {
+		margin: 0;
+		padding: 0;
+	  }
+	  h1 {
+		font-size: 36px;
+		font-weight: bold;
+		text-align: center;
+		margin: 20px;
+	  }
+	  h2 {
+		font-size: 24px;
+		font-weight: bold;
+		margin: 20px 0 10px 0;
+	  }
+
+		.boxEduc {
+			border: 2px solid #ccc;
+			padding: 20px;
+			margin-bottom: 20px;
+			flex-grow: 1;
+			width: 900px;
+		  /* add other styles as needed */
+		}
+		.boxWork {	
+	        border: 2px solid #ccc;
+	        padding: 20px;
+	        margin-bottom: 20px;
+			flex-grow: 1;
+			width: 900px;
+		  /* add other styles as needed */
+		}
+		.clearfix::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+
+		.containerTwo {
+		  display: flex;
+		  gap: 20px;
+		  max-width: 950px;
+		  margin: 0 auto;
+		  padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1>Education and Work Experience</h1>
+		</div>
+	</header>
+	
+	<nav>
+		<div class="container">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="cv.html">CV</a></li>
+				<li><a href="publications.html">Publications</a></li>
+				<li><a href="education.html"class="current">Education and Work Experience</a></li>
+				<li><a href="awards.html">Awards</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	
+	<main>
+		<div class="containerTwo">
+		  <section>
+		    <div class="boxEduc">
+		      <h2 class="underline">Education</h2>
+		      <div class="degree">
+		        <div class="school" style="width: 93%;">University of Illinois at Chicago <img src="img/logoUIC.jpg" alt=" UIC logo" style="width:160px;height:60px;float:right;"></div>
+		        <div class="program">Ph.D., Civil-Transportation Engineering</div>
+		        <div class="location">Chicago, IL</div>
+		        <div class="date">May 2022</div>
+		        <div class="clearfix"></div>
+		        <hr style="border-top: 2px solid #ccc; width: 20%; margin-top: 10px; margin-bottom: 10px; margin-left: 0;">
+		      </div>
+		      <div class="degree">
+		        <div class="school" style="width: 93%;">University of Illinois at Chicago <img src="img/logoUIC.jpg" alt=" UIC logo" style="width:160px;height:60px;float:right;"></div>
+		        <div class="program">M.Sc., Civil-Transportation Engineering</div>
+		        <div class="location">Chicago, IL</div>
+		        <div class="date">Dec 2017</div>
+		        <div class="clearfix"></div>
+		        <hr style="border-top: 2px solid #ccc; width: 20%; margin-top: 10px; margin-bottom: 10px; margin-left: 0;">
+		      </div>
+		      <div class="degree">
+		        <div class="school" style="width: 88%;">Bangladesh University of Engineering &amp; Technology <img src="img/buet.jpg" alt=" BUET logo" style="width:70px;height:60px;float:right;"></div>
+		        <div class="program">B.Sc., Civil-Transportation Engineering</div>
+		        <div class="location">Dhaka, Bangladesh</div>
+		        <div class="date">Sep 2015</div>
+		        <div class="clearfix"></div>
+		      </div>
+		      <div class="clearfix"></div>
+		    </div>
+		  </section>
+		</div>
+
+
+	    <div class="containerTwo">
+		  <section>
+		    <div class="boxWork">
+		      <h2 class="underline">Work Experience</h2>
+
+		      <div class="work" style="width: 89%;">
+		        <h3 style="color: #3366cc">Operations Research Engineer, Wheels Up <img src="img/wheelsup.jpg" alt="Wheels Up logo" style="width:80px;height:80px;float:right;"></h3>
+		        <p><strong>Aug 2021 - Mar 2023</strong></p>
+		        <ul style="margin-top: 5px;">
+		          <li>As the Data Science team's next generation R&D effort, developed efficient heuristic for fractional jet ownership services' planning and scheduling.</li>
+		          <li>Tested and demonstrated the value of flex-related implementation style and associated parameters, which allows flexibility for a random set of customers' departure time.</li>
+		          <li>Proposed alternative crew rest scenarios and reported the total operational impact, leading to changes in crew duty hours for the month of July 2022.</li>
+		          <li>Modernized and improved the Legacy Optimization Engine by replacing the existing commercial solver (CPLEX to Gurobi) to run applications on Virtual Machines.</li>
+		          <li>Developed Crew Scheduling Optimizer product requirements by consulting with different operators' Crew Scheduling teams.</li>
+		        </ul>
+		        <hr style="border-top: 2px solid #ccc; width: 20%; margin-top: 30px; margin-bottom: 30px; margin-left: 0;">
+		      </div>
+
+		      <div class="work" style="width: 90%;">
+		        <h3 style="color: #3366cc">Graduate Research Assistant, National Science Foundation (NSF) Grant <img src="img/nsf.jpg" alt="UIC logo" style="width:100px;height:100px;float:right;"></h3>
+		        <p><strong>Jan 2019 - Jul 2021</strong> <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1663411&HistoricalAwards=false" class="btn" style="font-family: 'Open Sans', sans-serif; font-size: 14px; font-weight: 600; text-decoration: none; color: #fff; background-color: #007bff; border-radius: 5px; padding: 5px 10px; margin-left: 10px;">See Details on NSF Webpage</a></p>
+		        <ul style="margin-top: 5px;">
+		          <li>Investigated two fundamental issues: efficient crowdsourcee-request assignment and relocating idle crowdsourced individuals (crowdsourcees) to further improve assignment efficiency.</li>
+		          <li>As a team-leader of this project, developed a novel learning-based approach to tackle the
+crowdsourcee-request assignment.</li>
+		          <li>Developed a queueing network-based framework to characterize crowdshipping system
+performance at the macroscale.</li>
+		        </ul>
+		        <hr style="border-top: 2px solid #ccc; width: 20%; margin-top: 30px; margin-bottom: 30px; margin-left: 0;">
+		      </div>
+
+		      <div class="work" style="width: 93%;">
+		        <h3 style="color: #3366cc">Graduate Research Assistant, DSC Logistics Funded Project <img src="img/UIC.jpg" alt="UIC logo" style="width:160px;height:100px;float:right;"></h3>
+		        <p><strong>Aug 2016 - Jan 2017</strong></p>
+		        <ul style="margin-top: 5px;">
+		          <li>Studied DSC Logistics (a 3PL) Pricing Behavior in Spot Markets.</li>
+		          <li>Conducted statistical tests, econometric modeling, and scenario analysis employing DSC and
+DAT proprietary data.</li>
+		          <li>Analyzed DSC's pricing practice and compared with DAT rates, detailed by lane and time.</li>
+		          <li>Provided recommendations to DSC on future pricing strategies.</li>
+		        </ul>
+		        <hr style="border-top: 2px solid #ccc; width: 20%; margin-top: 30px; margin-bottom: 30px; margin-left: 0;">
+		      </div>
+
+		      <div class="work" style="width: 93%;">
+		        <h3 style="color: #3366cc">Graduate Research Assistant, Urban Transportation Center at UIC <img src="img/UTC.jpg" alt="UTC logo" style="width:160px;height:40px;float:right;"></h3>
+		        <p><strong>Jan 2017 - Dec 2017</strong></p>
+		        <ul style="margin-top: 5px;">
+		          <li>Assisted in preparing the Illinois Long Range Transportation Plan.</li>
+		          <li>Conducted rail traffic analysis using the 2014 U.S. Surface Transportation Board Carload
+Waybill Sample.</li>
+		          <li>Presented freight flows by key commodities, directional flows and geographic markets.</li>
+		        </ul>
+		        <hr style="border-top: 2px solid #ccc; width: 20%; margin-top: 30px; margin-bottom: 30px; margin-left: 0;">
+		      </div>
+
+		    </div>
+		  </section>
+		</div>
+	</main>
+	
+	<footer>
+		<div class="containerTwo">
+			<p>&copy; 2023 Tanvir Ahamed | <a href="https://scholar.google.com/citations?user=ELQ2fEcAAAAJ&hl=en" target="_blank"><img src="img/googleScholar.jpg" alt="Instagram" width="20" height="20"></a>
+				<a href="https://www.linkedin.com/" target="_blank"><img src="img/linkedIn.jpg" alt="LinkedIn" width="20" height="20"></a></p>
+		</div>
+	</footer>
+</body>
+</html>
